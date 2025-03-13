@@ -15,12 +15,11 @@
           <a href="#">Services</a>
           <transition name="fade">
             <ul v-if="servicesDropdown" class="dropdown-menu">
-              <li><a href="#">IP Protection and Application</a></li>
+              <li><a href="#" @click.prevent="$router.push('/disclaimer')">IP Protection and Application</a></li>
               <li><a href="#">Competition & Publication Form</a></li>
             </ul>
           </transition>
         </li>
-
         <li><a href="#">Policies</a></li>
         <li><a href="#">Contact</a></li>
       </ul>

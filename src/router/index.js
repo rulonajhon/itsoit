@@ -3,6 +3,7 @@ import LandingPage from "@/views/LandingView.vue";
 import Login from "@/views/LoginView.vue";
 import SignUp from "@/views/SignUp.vue";
 import Home from "@/views/HomeView.vue";
+import DisclaimerView from '@/views/DisclaimerView.vue';
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 const routes = [
@@ -10,6 +11,7 @@ const routes = [
   { path: "/landing", component: LandingPage },
   { path: "/signup", component: SignUp },
   { path: "/login", component: Login },
+  { path: '/disclaimer', component: DisclaimerView },
   { 
     path: "/home", 
     component: Home, 
